@@ -1,0 +1,9 @@
+python manage.py makemigrations polls - creates migrations for app
+sqlmigrate command takes migration names and returns their SQL (python manage.py sqlmigrate polls 0001
+sqlmigrate doesn't actually rin migration, just simply prints to screen so you can verify what's required etc.
+The migrate command takes all the migrations that haven’t been applied (Django tracks which ones are applied using a special table in your database called django_migrations) and runs them against your database - essentially, synchronizing the changes you made to your models with the schema in the database.
+3 steps to making model changes:
+  1.change models in models.py
+  2.run python manage.py makemigrations to create migrations for those changes
+  3.run python manage.py migrate to apply changes
+django admin interface is automatically handled for admins to manage users/content. create admin with python manage.py createsuperuser
