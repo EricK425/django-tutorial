@@ -6,3 +6,4 @@ The migrate command takes all the migrations that haven’t been applied (Django
   1.change models in models.py
   2.run python manage.py makemigrations to create migrations for those changes
   3.run python manage.py migrate to apply changes
+django admin interface is automatically handled for admins to manage users/content. create admin with python manage.py createsuperuser
