@@ -1,0 +1,1 @@
+I'm working through the Django tutorial because I would love to competently learn this framework. I'm also putting my newly picked up git skills to practice using Django/Git for production purposes. Once I complete the tutorial I will incorporate some styling using Bootstrap 4.
